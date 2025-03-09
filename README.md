@@ -1,7 +1,7 @@
-# DSA_210_Term_Project
+# DSA_210_Term_Project EV Adoption Analysis
 
-# EV Adoption Analysis
 # Project Proposal
+
 # Motivation
 Electric Vehicles (EVs) are becoming an essential part of the transition to sustainable transportation. Understanding the factors influencing EV adoption can help policymakers, businesses, and consumers make informed decisions. This project aims to analyze global EV adoption trends and explore key influencing factors such as fuel prices and charging infrastructure.
 # Datasets
