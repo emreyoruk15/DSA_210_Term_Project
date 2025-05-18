@@ -149,6 +149,179 @@ Fail to reject the null hypothesis:
 There is no significant association between Tobacco Use and Oral Cancer.
 ![817d61f9-fe6f-48b3-a521-87f51bd88947](https://github.com/user-attachments/assets/1ef42d4c-8790-48ac-91a3-b79e54c35a59)
 
+### Alcohol Consumption
+- **Null Hypothesis:** There is no significant association between alcohol consumption and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between alcohol consumption and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.211
+P-value: 0.646
+
+Fail to reject the null hypothesis:
+There is no significant association between Alcohol Consumption and Oral Cancer
+![74dd7a00-5c51-4957-bfce-5935ac3d80a1](https://github.com/user-attachments/assets/4cbb6952-bf80-4917-8454-7fe1d42a0881)
+
+### HPV Infection
+- **Null Hypothesis:** There is no significant association between HPV infection and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between HPV infection and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.013
+P-value: 0.910
+
+Fail to reject the null hypothesis:
+There is no significant association between HPV Infection and Oral Cancer.
+![dee94ab1-6ee9-4ac6-a029-f91681ed401b](https://github.com/user-attachments/assets/27036225-8564-4f3d-aeb5-67ae9ce6ea09)
+
+### Betel Quid Use
+- **Null Hypothesis:** There is no significant association between Betel Quid Use and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Betel Quid Use and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.212
+P-value: 0.645
+
+Fail to reject the null hypothesis:
+There is no significant association between Betel Quid Use and Oral Cancer.
+![b2c2120c-a82d-4caa-88a5-2409b428464d](https://github.com/user-attachments/assets/daf416a2-a3f5-4524-95e5-1c3742de328d)
+
+### Chronic Sun Exposure
+- **Null Hypothesis:** There is no significant association between Chronic Sun Exposure and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Chronic Sun Exposure and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.073
+P-value: 0.786
+
+Fail to reject the null hypothesis:
+There is no significant association between Chronic Sun Exposure and Oral Cancer.
+![1d9b049f-b8e3-4d31-b89d-12f993c54cf0](https://github.com/user-attachments/assets/79149fb9-319f-4d14-b1bc-082b1ddd2b08)
+
+### Poor Oral Hygiene
+- **Null Hypothesis:** There is no significant association between Poor Oral Hygiene and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Poor Oral Hygiene and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 2.007
+P-value: 0.157
+
+Fail to reject the null hypothesis:
+There is no significant association between Poor Oral Hygiene and Oral Cancer.
+![dcdd4e5e-61f1-4b0a-b64b-a8f30cdec8ba](https://github.com/user-attachments/assets/ed7174e8-c4c4-4b5b-bb0e-1dbb7ebd0ad3)
+
+### Diet (Fruits & Vegetables Intake)
+- **Null Hypothesis:** There is no significant association between Diet (Fruits & Vegetables Intake) and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Diet (Fruits & Vegetables Intake) and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.976
+P-value: 0.614
+
+Fail to reject the null hypothesis:
+There is no significant association between Diet (Fruits & Vegetables Intake) and Oral Cancer.
+![0728f614-81fe-4c2b-a1c4-8594c8411393](https://github.com/user-attachments/assets/1eb9baff-76f1-4e10-8a1a-20ef7dadb7f5)
+
+### Oral Lesions
+- **Null Hypothesis:** There is no significant association between Oral Lesions and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Oral Lesions and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.068
+P-value: 0.795
+
+Fail to reject the null hypothesis:
+There is no significant association between Oral Lesions and Oral Cancer.
+![40bb9193-c475-4caf-a35d-3794008fdd96](https://github.com/user-attachments/assets/19729cb3-8768-4603-917c-3dfa78bd228f)
+
+### Unexplained Bleeding
+- **Null Hypothesis:** There is no significant association between Unexplained Bleeding and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Unexplained Bleeding and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.004
+P-value: 0.952
+
+Fail to reject the null hypothesis:
+There is no significant association between Unexplained Bleeding and Oral Cancer.
+![c1957ff9-547b-418e-ba0a-9bf82d26075f](https://github.com/user-attachments/assets/069c1b9d-3dad-49c2-b058-1e9f044f9f0f)
+
+### Difficulty Swallowing
+- **Null Hypothesis:** There is no significant association between Difficulty Swallowing and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Difficulty Swallowing and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.000
+P-value: 1.000
+
+Fail to reject the null hypothesis:
+There is no significant association between Difficulty Swallowing and Oral Cancer.
+![064864f1-e29e-4273-bb6c-7b329e61e52f](https://github.com/user-attachments/assets/f182b61d-cd91-4293-b9b1-3a73271a2d28)
+
+### White or Red Patches in Mouth
+- **Null Hypothesis:** There is no significant association between White or Red Patches in Mouth and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between White or Red Patches in Mouth and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.406
+P-value: 0.524
+
+Fail to reject the null hypothesis:
+There is no significant association between White or Red Patches in Mouth and Oral Cancer.
+![e82b2e59-8307-42e2-aebc-92311dcdbed7](https://github.com/user-attachments/assets/a5ffa7c1-98d0-4935-b106-374f804ff73d)
+
+### Gender
+- **Null Hypothesis:** There is no significant association between Gender and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Gender and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.010
+P-value: 0.920
+
+Fail to reject the null hypothesis:
+There is no significant association between Gender and Oral Cancer.
+![8057af1d-d314-439d-877a-07d00f1a03cf](https://github.com/user-attachments/assets/d04ee8d0-6bd2-4b7c-bdc7-56c8f2d1b517)
+
+### Family History of Cancer
+- **Null Hypothesis:** There is no significant association between Family History of Cancer and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Family History of Cancer and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 0.112
+P-value: 0.737
+
+Fail to reject the null hypothesis:
+There is no significant association between Family History of Cancer and Oral Cancer.
+![1a32b1c0-d412-4a03-82f7-5ceab554ac57](https://github.com/user-attachments/assets/306cfd92-73c2-4e7b-afec-d8f16789041e)
+
+### Compromised Immune System
+- **Null Hypothesis:** There is no significant association between Compromised Immune System and Oral Cancer.
+- **Alternative Hypothesis:** There is a significant association between Compromised Immune System and Oral Cancer.
+
+Performed Chi-Squared test and the following results are found:
+Chi-squared statistic: 2.532
+P-value: 0.112
+
+Fail to reject the null hypothesis:
+There is no significant association between Compromised Immune System and Oral Cancer.
+![ae66d8d6-593e-43d0-9154-4ec3470afc37](https://github.com/user-attachments/assets/1a8dc3fc-384c-4f20-bbf3-f482bfa25649)
+
+### Age
+- **Null Hypothesis:** There is no significant difference in age between oral cancer and non-cancer groups.
+- **Alternative Hypothesis:** There is a significant difference in age between oral cancer and non-cancer groups.
+
+Performed T-test and the following results are found:
+T-statistic: 0.673
+P-value: 0.501
+
+Fail to reject the null hypothesis: There is no significant difference in age between oral cancer and non-cancer groups.
+![9df169ed-532b-4d29-9a3c-05c61d795935](https://github.com/user-attachments/assets/733e3259-59e0-4a96-b766-0f26920a7953)
+
+
+
+
+
+
+
 
 ________________________________________
 # Conclusion
