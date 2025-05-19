@@ -75,8 +75,8 @@ Reject the null hypothesis: There is a significant difference in survival rates 
 - **Alternative Hypothesis:** Significant difference in survival rates between genders.
   
 T test is applied and the following results are found:  
-T-statistic: 2.966
-P-value: 0.003
+T-statistic: -0.7452  
+p-value: 0.4561
 
 Fail to reject the null hypothesis: No significant difference in survival rates between genders.
 ![a9ff3936-8d62-44bb-b644-bb5dda05211b](https://github.com/user-attachments/assets/05843561-3dcd-4069-9267-92753590104c)
@@ -315,9 +315,79 @@ P-value: 0.501
 
 Fail to reject the null hypothesis: There is no significant difference in age between oral cancer and non-cancer groups.
 ![9df169ed-532b-4d29-9a3c-05c61d795935](https://github.com/user-attachments/assets/733e3259-59e0-4a96-b766-0f26920a7953)
+________________________________________
+# Machine Learning
+## Predicting Survival Rate
+For this task, the following features are used to predict the survival rates of oral cancer patients:   
+Health Expenditure, Age, Gender, Tumor Size (cm), Cancer Stage, Treatment Type.  
 
+- Categorical variables are encoded.
+- Split the data (80% training-20% testing)
+- Split the training data for validation (80% training-20% validation)
+- Features are scaled with StandartScaler
+- Regression model is used to machine learning task (RandomForestRegressor)
 
+### Results  
+  --- Train Evaluation ---  
+R² Score:  0.994069457233379  
+MAE:  1.4808910787919645  
+RMSE:  1.8175903075580426  
 
+--- Validation Evaluation ---  
+R² Score:  0.9590423099512448  
+MAE:  3.9833114983001554  
+RMSE:  4.837277960869093  
+
+--- Test Evaluation ---  
+R² Score:  0.957393358247016  
+MAE:  4.0061089492296  
+RMSE:  4.8760741652794755  
+![82551ad9-bc2c-48b6-9878-78b370d3273e](https://github.com/user-attachments/assets/36cdef99-34a8-49f0-a11e-56cba362e455)
+
+## Predicting Oral Cancer  
+For this task, the following variables are used to predict oral cancer:  
+'Age', 'Gender', 'Tobacco Use', 'Alcohol Consumption', 'HPV Infection',
+    'Betel Quid Use', 'Chronic Sun Exposure', 'Poor Oral Hygiene',
+    'Diet (Fruits & Vegetables Intake)', 'Family History of Cancer',
+    'Compromised Immune System', 'Oral Lesions', 'Unexplained Bleeding',
+    'Difficulty Swallowing', 'White or Red Patches in Mouth'.  
+
+- Categorical variables are encoded.
+- Numerical features are scaled
+- Split the data (80% training-20% testing)
+- Classifier model is used to predict oral cancer diagnosis
+
+### Results  
+**Classification Report**
+![image](https://github.com/user-attachments/assets/86c7d7bb-52d3-4799-b022-cd01bd537214)  
+**Confusion Matrix**
+![4e90abcf-6e64-46e2-9a0d-03d18c34cf6a](https://github.com/user-attachments/assets/923afbdc-b20c-4fe4-81d5-e4e37f796a2e)
+________________________________________
+# Findings
+## Importance of Health Expenditure  
+In this project, one of the hypothesis was related to the relationship between health expenditure and early diagnosis. The results show that there is a significant difference in early diagnosis rates between high and low health expenditure countries. Additionally, it is known that early diagnosis plays a critical role in cancer treatment. So, it is important to have higher health expenditure to improve early detection rates.  
+## Importance of Early Diagnosis
+Another hypothesis was related to relation between early diagnosis and survival rate. The results suggest that patients with early diagnosis have a higher survival rate compared to those who were not diagnosed early. Therefore, it is critical to increase the early detection rates.  
+## Machine Learning Models
+Two model were implemented for two different purpose:  
+
+- **Predicting the survival rates of oral cancer patient.**
+This model had a good prediction performance on survival rate with 95.7% test accuracy.
+  
+- **Predicting the oral cancer patients.**
+Unfortunately, model for predicting the oral cancer patients had a bad performance with 50% test accuracy.
+________________________________________
+# Limitations and Future Work  
+## Limitations
+- People in the dataset are from certain countries, there are no participants from every country.
+- In this project, health expenditures were taken from the general average of the country in which they live, individuals' own health expenditures may be different.
+- Ratio of oral cancer patients are much more than real life, which may affect the result of machine learning model.
+
+## Future Work  
+- Collect more realistic data (e.g. from health organizations).
+- Collect data that includes individuals' own health expenditures.
+- Collect data from more countries.
+- Creating a new machine learning model by asking experts about the most important features affecting oral cancer.
 
 
 
