@@ -358,9 +358,9 @@ For this task, the following variables are used to predict oral cancer:
 - Classifier model is used to predict oral cancer diagnosis
 
 ### Results  
-**Classification Report**
+
 ![image](https://github.com/user-attachments/assets/86c7d7bb-52d3-4799-b022-cd01bd537214)  
-**Confusion Matrix**
+
 ![4e90abcf-6e64-46e2-9a0d-03d18c34cf6a](https://github.com/user-attachments/assets/923afbdc-b20c-4fe4-81d5-e4e37f796a2e)
 ________________________________________
 # Findings
