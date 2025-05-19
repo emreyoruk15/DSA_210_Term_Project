@@ -51,7 +51,7 @@ ________________________________________
 - **Null Hypothesis:**  There is no significant difference in early diagnosis rates between high and low health expenditure countries.
 - **Alternative Hypothesis:** There is a significant difference in early diagnosis rates between high and low health expenditure countries.
 
-T test is applied and the following results are found:
+T test is applied and the following results are found:  
 T-statistic: 2.589,
 P-value: 0.021
 
@@ -63,7 +63,7 @@ Reject the null hypothesis: There is a significant difference in early diagnosis
 - **Null Hypothesis:** There is no significant difference in survival rates between early and late diagnosis groups.
 - **Alternative Hypothesis:** There is a significant difference in survival rates between early and late diagnosis groups.
 
-T test is applied and the following results are found:
+T test is applied and the following results are found:  
 T-statistic: 2.966
 P-value: 0.003
 
@@ -74,7 +74,7 @@ Reject the null hypothesis: There is a significant difference in survival rates 
 - **Null Hypothesis:** No significant difference in survival rates between genders.
 - **Alternative Hypothesis:** Significant difference in survival rates between genders.
   
-T test is applied and the following results are found:
+T test is applied and the following results are found:  
 T-statistic: 2.966
 P-value: 0.003
 
@@ -85,7 +85,7 @@ Fail to reject the null hypothesis: No significant difference in survival rates 
 - **Null Hypothesis:** No significant difference among treatment types.
 - **Alternative Hypothesis:** Survival rates significantly differ across treatment types.
 
-ANOVA is applied and the following results are found:
+ANOVA is applied and the following results are found:  
 F-statistic: 0.4491, p-value: 0.7731
 
 Fail to reject the null hypothesis: No significant difference among treatment types.
@@ -95,7 +95,7 @@ Fail to reject the null hypothesis: No significant difference among treatment ty
 - **Null Hypothesis:** No significant difference in survival rate among cancer stages.
 - **Alternative Hypothesis:** Survival rates differ significantly between cancer stages.
 
-ANOVA is applied and the following results are found:
+ANOVA is applied and the following results are found:  
 F-statistic: 354344.6336, p-value: 0.0000
 
 Reject the null hypothesis: Survival rates differ significantly between cancer stages.
@@ -105,8 +105,8 @@ Reject the null hypothesis: Survival rates differ significantly between cancer s
 - **Null Hypothesis:** No significant correlation found between age and survival rate.
 - **Alternative Hypothesis:** Significant correlation found between age and survival rate.
 
-Pearson correlation calculated and the following results are found:
-Pearson correlation between Age and Survival Rate (Cancer Patients Only):
+Pearson correlation calculated and the following results are found:  
+Pearson correlation between Age and Survival Rate (Cancer Patients Only):  
 Correlation: -0.0015, p-value: 0.7637
 
 Fail to reject the null hypothesis: No significant correlation found between Age and survival rate.
@@ -117,8 +117,8 @@ Fail to reject the null hypothesis: No significant correlation found between Age
 - **Null Hypothesis:** No significant correlation found between tumor size and survival rate.
 - **Alternative Hypothesis:** Significant correlation found between tumor size and survival rate.
 
-Pearson correlation calculated and the following results are found:
-Pearson correlation between Tumor Size (cm) and Survival Rate (Cancer Patients Only):
+Pearson correlation calculated and the following results are found:  
+Pearson correlation between Tumor Size (cm) and Survival Rate (Cancer Patients Only):  
 Correlation: 0.0036, p-value: 0.4626
 
 Fail to reject the null hypothesis: No significant correlation found between Tumor Size (cm) and survival rate.
@@ -129,8 +129,8 @@ Fail to reject the null hypothesis: No significant correlation found between Tum
 - **Null Hypothesis:** No significant correlation found between health expenditure and survival rate.
 - **Alternative Hypothesis:** Significant correlation found between health expenditure and survival rate.
 
-Pearson correlation calculated and the following results are found:
-Pearson correlation between Health Expenditure and Survival Rate (Cancer Patients Only):
+Pearson correlation calculated and the following results are found:  
+Pearson correlation between Health Expenditure and Survival Rate (Cancer Patients Only):  
 Correlation: 0.0055, p-value: 0.2576
 
 Fail to reject the null hypothesis: No significant correlation found between Health Expenditure and survival rate.
@@ -141,7 +141,7 @@ Fail to reject the null hypothesis: No significant correlation found between Hea
 - **Null Hypothesis:** There is no significant association between tobacco use and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between tobacco use and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.296
 P-value: 0.586
 
@@ -153,7 +153,7 @@ There is no significant association between Tobacco Use and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between alcohol consumption and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between alcohol consumption and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.211
 P-value: 0.646
 
@@ -165,7 +165,7 @@ There is no significant association between Alcohol Consumption and Oral Cancer
 - **Null Hypothesis:** There is no significant association between HPV infection and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between HPV infection and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.013
 P-value: 0.910
 
@@ -177,7 +177,7 @@ There is no significant association between HPV Infection and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between Betel Quid Use and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Betel Quid Use and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.212
 P-value: 0.645
 
@@ -189,7 +189,7 @@ There is no significant association between Betel Quid Use and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between Chronic Sun Exposure and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Chronic Sun Exposure and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.073
 P-value: 0.786
 
@@ -201,7 +201,7 @@ There is no significant association between Chronic Sun Exposure and Oral Cancer
 - **Null Hypothesis:** There is no significant association between Poor Oral Hygiene and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Poor Oral Hygiene and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 2.007
 P-value: 0.157
 
@@ -213,7 +213,7 @@ There is no significant association between Poor Oral Hygiene and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between Diet (Fruits & Vegetables Intake) and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Diet (Fruits & Vegetables Intake) and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.976
 P-value: 0.614
 
@@ -225,7 +225,7 @@ There is no significant association between Diet (Fruits & Vegetables Intake) an
 - **Null Hypothesis:** There is no significant association between Oral Lesions and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Oral Lesions and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.068
 P-value: 0.795
 
@@ -237,7 +237,7 @@ There is no significant association between Oral Lesions and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between Unexplained Bleeding and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Unexplained Bleeding and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.004
 P-value: 0.952
 
@@ -249,7 +249,7 @@ There is no significant association between Unexplained Bleeding and Oral Cancer
 - **Null Hypothesis:** There is no significant association between Difficulty Swallowing and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Difficulty Swallowing and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.000
 P-value: 1.000
 
@@ -261,7 +261,7 @@ There is no significant association between Difficulty Swallowing and Oral Cance
 - **Null Hypothesis:** There is no significant association between White or Red Patches in Mouth and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between White or Red Patches in Mouth and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.406
 P-value: 0.524
 
@@ -273,7 +273,7 @@ There is no significant association between White or Red Patches in Mouth and Or
 - **Null Hypothesis:** There is no significant association between Gender and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Gender and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 0.010
 P-value: 0.920
 
@@ -285,7 +285,7 @@ There is no significant association between Gender and Oral Cancer.
 - **Null Hypothesis:** There is no significant association between Family History of Cancer and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Family History of Cancer and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:    
 Chi-squared statistic: 0.112
 P-value: 0.737
 
@@ -297,7 +297,7 @@ There is no significant association between Family History of Cancer and Oral Ca
 - **Null Hypothesis:** There is no significant association between Compromised Immune System and Oral Cancer.
 - **Alternative Hypothesis:** There is a significant association between Compromised Immune System and Oral Cancer.
 
-Performed Chi-Squared test and the following results are found:
+Performed Chi-Squared test and the following results are found:  
 Chi-squared statistic: 2.532
 P-value: 0.112
 
@@ -309,7 +309,7 @@ There is no significant association between Compromised Immune System and Oral C
 - **Null Hypothesis:** There is no significant difference in age between oral cancer and non-cancer groups.
 - **Alternative Hypothesis:** There is a significant difference in age between oral cancer and non-cancer groups.
 
-Performed T-test and the following results are found:
+Performed T-test and the following results are found:  
 T-statistic: 0.673
 P-value: 0.501
 
