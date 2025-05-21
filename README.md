@@ -325,23 +325,46 @@ Health Expenditure, Age, Gender, Tumor Size (cm), Cancer Stage, Treatment Type.
 - Split the data (80% training-20% testing)
 - Split the training data for validation (80% training-20% validation)
 - Features are scaled with StandartScaler
-- Regression model is used to machine learning task (RandomForestRegressor)
+- 3 models were implemented and evaluated according to validation set (Random Forest, k-NN, Decision Tree)
+- Best model is selected for testing on test set (Random Forest)
 
 ### Results  
-  --- Train Evaluation ---  
+--- Train (Random Forest) Evaluation ---  
 R² Score:  0.994069457233379  
 MAE:  1.4808910787919645  
 RMSE:  1.8175903075580426  
 
---- Validation Evaluation ---  
+--- (Validation Random Forest) Evaluation ---  
 R² Score:  0.9590423099512448  
 MAE:  3.9833114983001554  
 RMSE:  4.837277960869093  
 
---- Test Evaluation ---  
+--- Train (k-NN) Evaluation ---  
+R² Score:  0.9680102376491182  
+MAE:  3.3928941154509715  
+RMSE:  4.221378403601456  
+
+--- Validation (k-NN) Evaluation ---  
+R² Score:  0.9539286173672429  
+MAE:  4.1364611203501385  
+RMSE:  5.130372973100128  
+
+--- Train (Decision Tree) Evaluation ---  
+R² Score:  1.0  
+MAE:  0.0  
+RMSE:  0.0  
+
+--- Validation (Decision Tree) Evaluation ---  
+R² Score:  0.9233922418243232  
+MAE:  5.244704525663291  
+RMSE:  6.615606920304474  
+
+
+Final test score with best model (Random Forest)  
 R² Score:  0.957393358247016  
 MAE:  4.0061089492296  
 RMSE:  4.8760741652794755  
+
 ![82551ad9-bc2c-48b6-9878-78b370d3273e](https://github.com/user-attachments/assets/36cdef99-34a8-49f0-a11e-56cba362e455)
 
 ## Predicting Oral Cancer  
@@ -355,7 +378,7 @@ For this task, the following variables are used to predict oral cancer:
 - Categorical variables are encoded.
 - Numerical features are scaled
 - Split the data (80% training-20% testing)
-- Classifier model is used to predict oral cancer diagnosis
+- Random Forest Classifier model is used to predict oral cancer diagnosis
 
 ### Results  
 
@@ -369,7 +392,7 @@ In this project, one of the hypothesis was related to the relationship between h
 ## Importance of Early Diagnosis
 Another hypothesis was related to relation between early diagnosis and survival rate. The results suggest that patients with early diagnosis have a higher survival rate compared to those who were not diagnosed early. Therefore, it is critical to increase the early detection rates.  
 ## Machine Learning Models
-Two model were implemented for two different purpose:  
+Different models were implemented for two different purpose:  
 
 - **Predicting the survival rates of oral cancer patient.**
 This model had a good prediction performance on survival rate with 95.7% test accuracy.
