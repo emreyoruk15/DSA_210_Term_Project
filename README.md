@@ -395,4 +395,9 @@ ________________________________________
 
 ________________________________________
 # Conclusion
-By integrating individual health risk analysis with country-level healthcare spending, this study aims to provide a comprehensive understanding of oral cancer diagnosis patterns. This dual approach can enhance early detection efforts and support healthcare policy decisions to improve cancer screening and prevention strategies.
+By integrating individual health risk analysis with country-level healthcare spending, this study aims to provide a comprehensive understanding of oral cancer diagnosis patterns. This dual approach can enhance early detection efforts and support healthcare policy decisions to improve cancer screening and prevention strategies.  
+________________________________________  
+# References  
+- Oral Cancer Dataset (Kaggle) : https://www.kaggle.com/datasets/ankushpanday2/oral-cancer-prediction-dataset  
+- Health Expenditure Dataset (World Bank Group) : https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?most_recent_year_desc=true
+
