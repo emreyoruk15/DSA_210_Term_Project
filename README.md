@@ -1,4 +1,6 @@
-# Oral Cancer Prediction: Individual and Health Expenditure Analysis
+# Oral Cancer Prediction: Individual and Health Expenditure Analysis  
+# Final Report  
+________________________________________  
 # Motivation
 Oral cancer is a severe disease that, if diagnosed early, significantly increases survival rates. However, late-stage diagnosis leads to higher treatment costs and mortality rates. While individual risk factors such as tobacco use, alcohol consumption, and genetic predisposition play a crucial role in oral cancer development, healthcare accessibility and government spending on health services may also influence early detection rates.
 This project aims to:
